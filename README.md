@@ -2,6 +2,14 @@
 PrimerCheck
 PrimerCheck is a python script that uses BLAST+ to detect if DNA sequences bind to given forward primers, reverse primers, and probes and whether they produce a valid PCR product (≤500 bp with proper primer orientation and probe positioning).
 
+Files:
+PrimerCheck.py: python script
+forward_vtx.fasta: forward primers to test PrimerCheck
+reverse_vtx.fasta: reverse primers to test PrimerCheck
+probe_vtx.fasta: probes to test PrimerCheck
+PrimerCheck_test_sequences.fasta: sequences to test PrimerCheck
+Summary_expected_test_sequences: Expected results with testing PrimerCheck with vtx primers, probes and test sequences
+
 Installation
 1. Install Python
 Download from python.org.
@@ -50,7 +58,5 @@ Oversized binding distances
 
 Notes
 PCR product must form with forward and reverse primers on opposite strands and the probe in between them (++-, +--, -++ or --+ orientation).
-
 Primers must bind to sequence with a binding length of ≥17 bp and match ≥88% identity.
-
 Output folders are overwritten each run — back up results if needed.
