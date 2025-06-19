@@ -1,0 +1,44 @@
+Total sequences processed: 31
+Sequences with valid PCR products: 20
+Sequences with primer binding but no product: 6
+Sequences binding to one or no primers: 5
+
+IDs with valid PCR products:
+stx1a_AM230662.1
+stx1c_AB048231.1
+stx1d_AY170851.1
+stx1e_KF926684.1
+stx2a_X07865.1
+stx2a_X07865.1_probe_in_the_opposite_direction_as_forward_primer_(for_stx_normally_the_same)
+stx2b_AF043627.1
+stx2c_L11079.1
+stx2d-variant_DQ059012.1
+stx2f_AB472687.1
+stx2g_AY286000.1
+stx2h_CP022279_complement(4122529..4123764)
+stx2i_FN252457.1
+stx2j_MZ571121.1
+stx2k_KC339670.2
+stx2l_AM904726.1
+stx2m_stx2
+stx2n
+stx2o_MZ229604.1
+stx_2e_M21534.1
+
+IDs with primer binding but no product:
+AJ010730.1_primers_over_500bp_apart_for_Escherichia_coli_stx2tA,_stx2tB_genes,_strain_T4/97
+stx2a_X07865.1_probe_located_after_both_primers
+stx2a_X07865.1_probe_located_before_both_primers
+stx2a_X07865.1_probe_only_match_16bp
+stx2a_X07865.1_probe_primer_region_removed
+stx2a_X07865.1_reverse_in_the_same_direction_as_the_forward_primer
+
+IDs with one or no primer binding:
+NonSTEC_primers_and_probe_removed_from_STEC_sequence
+stx2a_X07865.1_forward_only_match_16bb
+stx2a_X07865.1_forward_primer_region_removed
+stx2a_X07865.1_reverse_only_match_16bp
+stx2a_X07865.1_reverse_primer_region_removed
+
+PCR product size range: 161 - 168 bp
+Oversized product distances (>500 bp): 6461 - 6465 bp
