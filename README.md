@@ -1,5 +1,4 @@
 # PrimerCheck
-PrimerCheck
 PrimerCheck is a python script that uses BLAST+ to detect if DNA sequences bind to given forward primers, reverse primers, and probes and whether they produce a valid PCR product (≤500 bp with proper primer orientation and probe positioning).
 
 Files:
